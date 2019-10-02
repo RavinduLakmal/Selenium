@@ -1,14 +1,12 @@
 package lk.wixi360.selenium.Entity;
 
 public class Description {
-    private Long id;
+    private int id;
     private String descNumber;
     private String position;
     private String description;
 
-    public Long getId() {
-        return id;
-    }
+
 
     public Description(String descNumber, String position, String description) {
         this.descNumber = descNumber;
@@ -16,7 +14,18 @@ public class Description {
         this.description = description;
     }
 
-    public void setId(Long id) {
+    public Description(int id, String descNumber, String position, String description) {
+        this.id = id;
+        this.descNumber = descNumber;
+        this.position = position;
+        this.description = description;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
