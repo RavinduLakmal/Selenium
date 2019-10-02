@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="selenium-server-4.0.0-alpha-2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/driver/selenium-server-4.0.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/driver/selenium-server-4.0.0-alpha-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
